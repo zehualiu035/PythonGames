@@ -29,7 +29,8 @@ pos_x=300
 pos_y=450
 bomb_x=random.randint(0,500)
 bomb_y=-50
-vel_y=0.7
+#speed of ball
+vel_y=0.3
 
 while True:
     for event in pygame.event.get():
